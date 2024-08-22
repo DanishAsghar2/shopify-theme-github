@@ -33,3 +33,53 @@ bash
 Copy code
 npm run serve
 This command will start a local development server and automatically reload changes in your theme.
+
+
+Production Build
+To compile and minify the theme for production:
+
+bash
+Copy code
+npm run build
+This generates a production-ready version of the theme, optimized for deployment.
+
+Linting
+To lint and fix issues in your code:
+
+bash
+Copy code
+npm run lint
+This ensures your code adheres to coding standards and best practices.
+
+Deployment
+To deploy the theme to your Shopify store using Shopify CLI:
+
+bash
+Copy code
+shopify theme push
+This command will upload the theme to your store.
+
+Customization
+Theme Settings
+Modify theme settings by editing the config/settings_data.json file. This file controls various customizable options available in the Shopify admin interface.
+
+Adding Sections
+To add new sections, create a .liquid file in the sections directory. Define the HTML, CSS, and JavaScript necessary for your custom section.
+
+Contributing
+To contribute to this project:
+
+Fork the repository.
+Create a branch:
+bash
+Copy code
+git checkout -b new-feature
+Commit your changes:
+bash
+Copy code
+git commit -m 'Add new feature'
+Push to the branch:
+bash
+Copy code
+git push origin new-feature
+Submit a pull request.
