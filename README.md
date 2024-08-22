@@ -56,3 +56,53 @@ To compile and minify the theme for production:
 
 ```bash
 npm run build
+
+This generates a production-ready version of the theme.
+
+Linting
+To lint and fix issues in your code:
+
+```bash
+npm run lint
+
+This ensures your code adheres to coding standards.
+
+Deployment
+Deploy the theme to your Shopify store:
+
+```bash
+shopify theme push
+
+This uses Shopify CLI to upload your theme to your store.
+
+Customization
+Modify Theme Settings
+
+You can modify theme settings in the config/settings_data.json file. This file controls various customizable options available in the Shopify admin.
+
+Add New Sections
+
+To add new sections, create a .liquid file in the sections folder and define your section's HTML, CSS, and JavaScript as needed.
+
+Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+Fork the repository.
+
+2. Create a new branch:
+
+```bash
+git checkout -b feature-name
+
+3. Make your changes and commit:
+
+```bash
+git commit -m 'Add a new feature'
+
+4.Push to the branch:
+
+```bash
+git push origin feature-name
+
+5. Submit a Pull Request.
+
