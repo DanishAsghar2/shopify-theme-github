@@ -1,4 +1,4 @@
-# Shopify Theme
+![image](https://github.com/user-attachments/assets/50fd015c-6647-41e0-9df9-089675fba818)# Shopify Theme
 
 ## Overview
 
@@ -83,3 +83,6 @@ bash
 Copy code
 git push origin new-feature
 Submit a pull request.
+
+
+![image](https://github.com/user-attachments/assets/8cebfed1-9180-44cd-a88c-7913bf3a1b58)
