@@ -26,7 +26,7 @@ To set up the project, run the following command to install all dependencies:
 ```bash
 npm install
 
-Development
+#Development
 To compile the theme and start hot-reloading for development:
 
 bash
