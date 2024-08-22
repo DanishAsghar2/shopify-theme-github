@@ -25,3 +25,11 @@ To set up the project, run the following command to install all dependencies:
 
 ```bash
 npm install
+
+Development
+To compile the theme and start hot-reloading for development:
+
+bash
+Copy code
+npm run serve
+This command will start a local development server and automatically reload changes in your theme.
